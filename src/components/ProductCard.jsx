@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import "@/styles/main.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,6 +12,7 @@ import { faHeart as regularHeart } from "@fortawesome/free-regular-svg-icons";
 import { faStar as faStarRegular } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 function ProductCard({ product, removeProduct }) {
   const [like, setLike] = useState(false);
   const [compare, setCompare] = useState(false);

@@ -2,6 +2,7 @@ import { RadioGroup as ChakraRadioGroup } from '@chakra-ui/react'
 import * as React from 'react'
 
 export const Radio = React.forwardRef(function Radio(props, ref) {
+  // eslint-disable-next-line react/prop-types
   const { children, inputProps, rootRef, ...rest } = props
   return (
     <ChakraRadioGroup.Item ref={rootRef} {...rest}>

@@ -52,4 +52,4 @@ function Tracking() {
   )
 }
 
-export default Tracking
+export default Tracking;

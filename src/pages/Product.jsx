@@ -109,7 +109,6 @@ function Product({ search }) {
         </div>
       </div>
 
-      {/* BESTSELLER */}
       <div className="product-title">
         <Link to={"/empty"} className="h2">
         БЕСТСЕЛЛЕР
@@ -128,7 +127,6 @@ function Product({ search }) {
         )}
       </div>
 
-      {/* XAZNA */}
       <div className="product-title">
         <Link to={"/empty"} className="h2">
         Касса 0-0-6 (Только продукты питания)

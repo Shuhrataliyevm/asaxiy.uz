@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
 import { Provider } from "@/components/ui/provider"
 import { BrowserRouter } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
